@@ -1,0 +1,121 @@
+.gradient-background {
+  background: linear-gradient(300deg, #06142e,#26425a,#86a8cf,#e1cbd7,#c38eb4,#1b3358);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+.btncolor{
+  background-color: #86a8cf;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+#nameMain{
+    font-weight: bold;
+    font-size: 125px;
+    font-family: Papyrus, fantasy;
+    color: #86a8cf
+}
+#identity{
+    font-size: 85px;
+    font-family: Harrington;
+    color: #c38eb4;
+}
+.backgroundcolor{
+    background-color: #06142e;
+}
+#profilepicx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pic{
+    border-radius: 50%;
+}
+#about{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.aboutmeStyle{
+    color: #e1cbd7;
+    font-family: consolas;
+}
+hr{
+    color: white;
+}
+.skills{
+    font-family: papyrus;
+    color: #86a8cf;
+    font-size: 50px;
+}
+.exp{
+  font-family: consolas;
+  color: #86a8cf;
+}
+.flexcont{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.flexcont2{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.btnContainer{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  gap: 18px;
+}
+@media(max-width: 1000px){
+  .btnContainer{
+    display: inline-block;
+  }
+}
+.hello{
+  font-family: 'Times New Roman', Times, serif;
+  color: #86a8cf;
+  text-align: center;
+  font-size: 45px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#sidebar{
+  display: flex;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+#html{
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+}
+.tableContent1{
+  color: #86a8cf;
+}
+.tableContent2{
+  color: #c38eb4;
+}
+.borderColor{
+  color: #e1cbd7;
+}
